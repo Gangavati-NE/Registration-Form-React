@@ -1,0 +1,124 @@
+.registration-app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 24px;
+  font-family: Roboto, sans-serif;
+  background-color: #ffffff;
+}
+
+.registration-form-container {
+  width: 100%;
+  max-width: 420px;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  background-color: #ffffff;
+}
+
+.registration-heading {
+  margin-top: 0;
+  margin-bottom: 32px;
+  color: #ea580c;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.input-label {
+  margin-bottom: 8px;
+  color: #475569;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.form-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  color: #323f4b;
+  font-size: 14px;
+  outline: none;
+}
+
+.form-input:focus {
+  border-color: #ea580c;
+}
+
+.input-error {
+  border-color: #ff0b37;
+  background-color: #fef2f4;
+}
+
+.error-message {
+  margin-top: 6px;
+  margin-bottom: 0;
+  color: #ff0b37;
+  font-size: 12px;
+}
+
+.submit-button,
+.submit-another-button {
+  align-self: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #ea580c;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.submit-button:hover,
+.submit-another-button:hover {
+  opacity: 0.9;
+}
+
+.success-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.success-image {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 16px;
+}
+
+.success-message {
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #475569;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 575px) {
+  .registration-app-container {
+    padding: 16px;
+  }
+
+  .registration-form-container {
+    padding: 28px 22px;
+  }
+
+  .registration-heading {
+    font-size: 28px;
+  }
+}
